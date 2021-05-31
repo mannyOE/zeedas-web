@@ -1,0 +1,107 @@
+/*Custom pagination*/
+.pagination {
+  display: inline-block;
+  padding-left: 10px;
+  margin: 20px 0;
+  border-radius: 100%;
+  li{
+    display: inline;
+    a, span{
+      display: inline-block;
+      cursor: pointer;
+      padding: .2rem .5rem;
+      font-size: 12px;
+      //border: 1px solid #eee;
+      border-radius: 50%;
+      margin-right: 4px;
+      color: #404a4c !important;
+      .caret {
+        border-radius: 0;
+        color: #29baf1
+      }
+    }
+  }
+
+  .active {
+    a, span{
+      background: #29baf1;
+      color: #fff !important;
+    }
+  }
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+
+}
+
+//.pagination {
+//  display: flex;
+//  padding-left: 0;
+//  list-style: none;
+//  border-radius: 0.15rem; }
+//
+//.page-item:first-child .page-link {
+//  margin-left: 0;
+//  border-bottom-left-radius: 0.15rem;
+//  border-top-left-radius: 0.15rem; }
+//
+//.page-item:last-child .page-link {
+//  border-bottom-right-radius: 0.15rem;
+//  border-top-right-radius: 0.15rem; }
+//
+//.page-item.active .page-link {
+//  z-index: 2;
+//  color: #fff;
+//  background-color: #2962ff;
+//  border-color: #2962ff; }
+//
+//.page-item.disabled .page-link {
+//  color: #777777;
+//  pointer-events: none;
+//  cursor: not-allowed;
+//  background-color: #fff;
+//  border-color: #ddd; }
+//
+//.page-link {
+//  position: relative;
+//  display: block;
+//  padding: 0.4rem 0.95rem;
+//  margin-left: -1px;
+//  line-height: 1.25;
+//  color: #424242;
+//  background-color: #fff;
+//  border: 1px solid #ddd; }
+//.page-link:focus, .page-link:hover {
+//  color: #003adc;
+//  text-decoration: none;
+//  background-color: #eeeeee;
+//  border-color: #ddd; }
+//
+//.pagination-lg .page-link {
+//  padding: 0.7rem 1.5rem;
+//  font-size: 1.25rem; }
+//
+//.pagination-lg .page-item:first-child .page-link {
+//  border-bottom-left-radius: 0.24rem;
+//  border-top-left-radius: 0.24rem; }
+//
+//.pagination-lg .page-item:last-child .page-link {
+//  border-bottom-right-radius: 0.24rem;
+//  border-top-right-radius: 0.24rem; }
+//
+//.pagination-sm .page-link {
+//  padding: 0.26rem 0.75rem;
+//  font-size: 0.875rem; }
+//
+//.pagination-sm .page-item:first-child .page-link {
+//  border-bottom-left-radius: 0.1rem;
+//  border-top-left-radius: 0.1rem; }
+//
+//.pagination-sm .page-item:last-child .page-link {
+//  border-bottom-right-radius: 0.1rem;
+//  border-top-right-radius: 0.1rem; }

@@ -1,0 +1,42 @@
+@import '../../assets/scss/all/custom/variables';
+
+.MemberProfile {  
+  height: calc(100% + 100px);
+  overflow: hidden;
+
+  .overflow-auto {
+    overflow-y: auto;
+  }
+
+  .ActivityTimeline {
+    .card {
+    background-color: #F9F9F9 !important;
+
+    }
+    .activities-title {
+      font-family: 'Futura';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+      color: $zd-dark-blue;
+    }
+
+    .activities-item {
+    }
+
+    .edit-team-members-modal {
+      .card-component.card {
+        padding: 30px;
+      }
+
+      .description-header {
+        font-weight: 600;
+        font-size: 14px;
+        color: #03293d;
+        opacity: 0.5;
+        width: 384px;
+      }
+    }
+  }
+}

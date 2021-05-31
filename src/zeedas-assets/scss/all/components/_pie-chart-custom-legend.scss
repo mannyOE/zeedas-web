@@ -1,0 +1,70 @@
+ul.legend-group {
+  position: absolute;
+  top: 3%;
+  left: 55%;
+  width: 100%;
+}
+
+ul.legend-group li {
+  list-style: none;
+  span{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+
+  }
+}
+
+ul li.legend-group--item {
+  padding: 10px 20px;
+}
+
+ li.legend-group--item span:nth-child(1) {
+   position: absolute;
+   left: 0%;
+   font-weight: 700;
+   margin-top: 7px;
+   cursor: pointer;
+
+
+ }
+
+.pie-canvas {
+  position: relative;
+  right: 72%;
+}
+
+.plot-value {
+  position: absolute;
+  left: 35%;
+  background-color: #fff;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  color: #03293D;
+  cursor: pointer;
+
+}
+
+.plot-name {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  margin-left: 16px;
+  color: #101010;
+  opacity: 0.4;
+  background-color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+}
+
+ul.legend-group li.legend-group--item.btn-disabled  {
+  text-decoration: line-through;
+}

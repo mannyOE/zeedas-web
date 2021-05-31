@@ -1,0 +1,270 @@
+select {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: var(--zd-blue);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: menulist;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  background-color: #fff;
+  cursor: default;
+  margin: 0em;
+  font: 16px;
+  //border-radius: 0px;
+  border-width: 0px;
+  border-style: none;
+  //border-color: none;
+  border-image: none;
+}
+
+table {
+  border-collapse: separate;
+  //font-size: 1vw;
+  color: rgba(16, 16, 16, 0.6)
+}
+
+.table td {
+  vertical-align: middle;
+
+}
+
+.table tr:hover {
+  box-shadow: -1px 0px 20px rgba(47, 19, 67, 0.06);
+  background: #FFFFFF;
+}
+
+.table thead tr:hover {
+  box-shadow: none;
+}
+
+.table thead th {
+  padding: 0 1rem;
+  vertical-align: bottom;
+  border-bottom: none;
+  border-top: 1px solid rgba(16, 16, 16, 0.05);
+  padding-top: 10px;
+
+}
+
+.transaction-history thead th{
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  color: #03293D;
+  opacity: 0.7;
+}
+td {
+  //padding: 0.5em;
+  background-color: #fff;
+}
+
+.table {
+  text-align: left;
+  border-spacing: 0;
+}
+
+.section::before {
+  height: 1em;
+  display: table-row;
+  content: "";
+}
+.table th {
+  //padding: 0
+}
+.section-step td {
+  //border: 0 solid #ccc;
+  border: 0 solid rgba(16, 16, 16, 0.05);
+}
+
+.section::before tr:first-child {
+  height: 0em;
+  //display: table-row;
+  //content: "";
+}
+
+//.section-step th:first-child,
+.section-step td:first-child {
+  //border-left-width: 1px;
+  //border-top: 1px solid #dee2e6;
+  border-left:  1px solid rgba(16, 16, 16, 0.05);
+}
+
+
+//.section-step th:last-child,
+.section-step td:last-child {
+  border-right-width: 1px;
+}
+
+.section-step tr:first-child ,
+.section-step tr:first-child td {
+  border-top-width: 1px;
+}
+
+.section-step tr:first-child,
+.section-step tr:first-child td:first-child {
+  border-top-left-radius: 0.25em;
+
+}
+
+.section-step tr:first-child ,
+.section-step tr:first-child td:last-child {
+  border-top-right-radius: 0.25em;
+}
+
+.section-step tr:last-child ,
+.section-step tr:last-child td {
+  border-bottom-width: 1px;
+}
+
+.section-step tr:last-child ,
+.section-step tr:last-child td:first-child {
+  border-bottom-left-radius: 0.25em;
+}
+
+.section-step tr:last-child ,
+.section-step tr:last-child td:last-child {
+  border-bottom-right-radius: 0.25em;
+  //cursor: pointer;
+}
+
+.transaction-history .section-step tr:last-child ,
+.transaction-history .section-step tr:last-child  td:last-child {
+  border-bottom-right-radius: 0.25em;
+  width: 20%;
+}
+
+.section-step {
+  //border-radius: 0.25em; /* 1 */
+  //box-shadow: 0 0 0 1px #ccc; /* 1 */
+}
+
+.section-header,
+.sub-header {
+  text-align: left;
+}
+
+
+
+/**
+ * 1. Create a new stacking context to make the
+ *    header sit on top of the following row.
+ */
+.sub-header {
+  box-shadow: 0 0.15em 1em rgba(0, 0, 0, 0.1);
+  transform: translate(0, 0); /* 1 */
+}
+
+/* transaction history */
+
+.transaction-history td {
+  padding: 0 0.5rem !important;
+  line-height: 20px;
+}
+
+.transaction-history thead {
+  color: #03293D;
+  opacity: 0.5;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.repeat-transaction {
+  color: var(--zd-red);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.wallet-funded {
+  color: var(--zd-green);
+  font-weight: 500;
+}
+
+.funds-transferred {
+  color: var(--zd-red);
+  font-weight: 500;
+
+}
+
+.clear-table {
+  color:  var(--zd-orange);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.sort {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #2D2D2D;
+  opacity: 0.5;
+}
+.transaction-history .hovered-row {
+  display: inline;
+  cursor: pointer;
+}
+
+.not-hovered {
+  display: none;
+}
+
+/* table-all-cards */
+
+.table-all-cards th {
+  padding: 0 1rem !important;
+  line-height: 40px;
+}
+.table-all-cards td{
+  //padding: 0 !important;
+  line-height: 60px;
+  padding: 0 1rem !important;
+}
+
+.table-all-cards thead th{
+  color: #03293D;
+  opacity: 0.5;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+
+.table-all-cards .dark-text {
+  color: $zeedas-dark-text;
+}
+
+.table-all-cards thead th {
+  border-top: 1px dashed $zeedas-gray-text-1
+
+}
+
+.table-all-card .transaction-badge {
+  display: inline;
+}
+.not-hovered {
+  display: none;
+}
+.table-all-cards .hovered-row {
+  display: inline;
+  cursor: pointer;
+}
+
+.hovered span:nth-child(2){
+  display: none;
+  color: var(--zd-green);
+
+}
+
+.default {
+  display: inline;
+}
+
+.set-default {
+  color: var(--zd-green);
+}

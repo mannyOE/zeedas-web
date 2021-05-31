@@ -1,0 +1,62 @@
+.notification-parent {
+  background-color: #ffffff;
+}
+.notification-entry {
+  cursor: pointer;
+
+  &__icon {
+    &--unopened {
+      path {
+        //fill: #E13071;
+        fill: #EB0E43;
+      }
+    }
+    &--opened {
+      path {
+        fill: #f9f9f9;
+      }
+    }
+  }
+}
+.notification-count {
+  position: absolute;
+  top: 15px;
+  right: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #fff;
+  height: 20px;
+  min-width: 20px;
+  //width: 20px;
+  background-color: #E13071;
+  border: 3px solid #FBFBFB;
+  border-radius: 25px;
+  padding: 3px;
+}
+
+.bell__parent {
+  width: 25px;
+  height: 25px;
+  left: 950px;
+  top: 238px;
+  background: rgba(241, 88, 50, 0.2);
+  border-radius: 50%;
+
+  &--unopened {
+    background: rgba(241, 88, 50, 0.1);
+  }
+  &--opened {
+    background: rgba(241, 88, 50, 0.2);
+  }
+}
+
+.bell-icon__info {
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+}
+
+.notification-info {
+  border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+}

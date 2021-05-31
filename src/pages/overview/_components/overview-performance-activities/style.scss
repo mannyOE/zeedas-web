@@ -1,0 +1,72 @@
+@import "../../../../assets/scss/all/custom/variables";
+
+.OverviewPerformanceActivities {
+    .col-md-3 {
+      flex: 0 0 20%;
+      max-width: 30%;
+    }
+
+    .font-family-futura {
+      font-family: 'Futura', sans-serif;
+    }
+  }
+
+  .PerformanceActivitiesCard {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    color: white;
+    height: 135px;
+
+    hr {
+      opacity: 0.2;
+      border: 1px solid #f9f9f9;
+    }
+
+    &.c-green {
+      background: #31aa52;
+    }
+    &.c-orange {
+      background: #df7645;
+    }
+    &.c-pink {
+      background: #e91e63;
+    }
+    &.c-blue {
+      background: #00a1e0;
+    }
+    &.c-purple {
+      background: #2d3182;
+    }
+  }
+
+  .PerformersCard {
+    background: #FCFCFC;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 15px;
+    height: 295px;
+
+    .member-avatar {
+      width: 40px;
+      height: 40px;
+      display: block;
+      background: $zd-blue;
+      border-radius: 50%;
+    }
+
+    .member-name {
+      font-weight: 600;
+    }
+
+    .member-email {
+      color: #a5a4a4;
+    }
+
+    .performance-count {
+      &.green {
+        color: $zd-green;
+      }
+      &.red {
+        color: #eb0e43;
+      }
+    }
+  }

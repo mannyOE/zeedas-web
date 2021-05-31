@@ -1,0 +1,145 @@
+.default-button {
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 15px 19px;
+  // width: 121px;
+  height: 50px;
+
+  &__grounded:hover {
+    transform: translateX(0) translateY(0) translateZ(0);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &:disabled:hover {
+    box-shadow: none !important;
+    cursor: not-allowed;
+  }
+
+  &__bold small {
+    font-weight: 700;
+  }
+}
+
+/* Button Icon Left*/
+
+.btn-icon-left {
+  //width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  //padding: 13px 21px 13px 9px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+  //position: relative;
+  // TODO: make decision on width size. I had to change it to 'auto'. I feel it
+  // makes more sense for buttons to wrap around its content by default
+  // we'll have a final consensus on this however.
+  // width: 135px;
+  width: auto;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*Btn Icon Arrow */
+.btn-icon-arrow {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15) !important;
+  width: 196px;
+  height: 45px;
+}
+
+.btn-icon {
+  margin-right: 10px;
+  // margin-left: 3px;
+}
+
+/* Button Icon Arrow */
+.btn-arrow {
+  position: absolute;
+  left: 80%;
+  margin-left: 10px;
+  color: #fff;
+  opacity: 0.4;
+}
+
+/*Btn Icon Arrow Boder */
+.btn-icon-arrow-border {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  width: 181px;
+  height: 46px;
+}
+
+.btn-arrow-wrapper {
+  position: absolute;
+  top: 0;
+  border-left: 1px solid rgba(252, 252, 252, .15);
+  right: 0;
+  height: inherit;
+  width: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .btn-arrow {
+    color: #fff;
+    opacity: 0.4;
+    position: relative;
+    left: 0;
+    margin-left: 0;
+  }
+}
+
+// /* Button Icon Arrow Border*/
+
+// Button-Dropdown-Sort
+.button-dropdown-sort {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  width: 125px;
+  height: 44px;
+  justify-content: space-around;
+}
+
+.cancel-clear {
+  color: #0b7ec4;
+}
+
+// Block Button
+
+.button-block {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+}

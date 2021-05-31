@@ -1,0 +1,54 @@
+.bottom-notification {
+  width: 100%;
+  height: 68px;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  color: $zd-white;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  position: fixed;
+  bottom: 0;
+}
+
+.notification-bg-success {
+  display: flex;
+  background-color: $zd-green;
+  // transition: bottom 0.5s ease;
+  transition: opacity 0.5s linear, height 0.5s step-start;
+
+}
+
+.notification-bg-failure {
+  display: flex;
+  background-color: $zd-red;
+  // transition: bottom 0.5s ease;
+  transition: opacity 0.5s linear, height 0.5s step-start;
+
+}
+
+.notification-bg-warning {
+  display: flex;
+  background-color: $zd-yellow;
+  // transition: bottom 0.5s ease;
+  transition: opacity 0.5s linear, height 0.5s step-start;
+
+}
+
+.notification-bg-info {
+  display: flex;
+  background-color: $zd-blue;
+  // transition: bottom 0.5s ease;
+  transition: opacity 0.5s linear, height 0.5s step-start;
+
+}
+
+.hidden {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition-timing-function: linear, step-end;
+}

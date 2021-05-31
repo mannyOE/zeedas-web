@@ -1,0 +1,19 @@
+@import '../../../../assets/scss/all/custom/variables';
+
+.CoreTeamForm {
+  .CoreTeamForm__input-group {
+  }
+  .CoreTeamForm__input {
+    color: rgb(45, 45, 45);
+    border: none;
+    height: 60px;
+    background: rgba(45, 45, 45, 0.04);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+
+    &::placeholder {
+      color: rgba(45, 45, 45, 0.3);
+    }
+  }
+}

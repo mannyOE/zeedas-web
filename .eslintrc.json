@@ -1,0 +1,64 @@
+//{
+//    "extends": [
+//        "react-app",
+//        "airbnb",
+//        "plugin:jsx-a11y/recommended",
+//        "prettier"
+////        "prettier/react"
+//    ],
+//    "plugins": [
+//        "jsx-a11y",
+//        "prettier"
+//    ],
+//    "rules": {
+//        "semi": 0,
+//        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+//        "prettier/prettier": [
+//            "error", {
+//                "semi": false
+//            }
+//        ]
+//    }
+//}
+
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+//    "extends": [
+//        "eslint:recommended",
+//        "plugin:react/recommended"
+//    ],
+    "extends": [
+        "airbnb"
+    ],
+    "parser": "babel-eslint",
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["src"]
+            }
+        }
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "quotes": ["error", "double"],
+        "react/jsx-props-no-spreading" : "off" ,
+        "react/destructuring-assignment": "off",
+        "no-useless-constructor": "off",
+        "import/no-named-as-default": "off",
+        "react/no-array-index-key": "warn",
+        "no-unused-vars": "warn",
+        "no-underscore-dangle": "off"
+    }
+}

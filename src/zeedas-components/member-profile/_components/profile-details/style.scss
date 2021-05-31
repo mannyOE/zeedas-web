@@ -1,0 +1,110 @@
+@import '../../../../assets/scss/all/custom/variables';
+
+.ProfileDetails {
+  .ProfileDetails__card.card {
+    background-color: #F9F9F9 !important;
+
+  }
+
+  .progress-bar {
+    border-radius: 5px;
+  }
+  .profile-name {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: $zd-dark-blue;
+  }
+
+  .progress-counter-bar {
+    padding-left: 24px;
+    padding-right: 24px;
+
+    .progress {
+      height: 4px;
+    }
+
+    .progress-percent {
+      margin-bottom: 4px;
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 14px;
+      color: #4dbd98;
+    }
+  }
+
+  .progress-counter-container {
+  }
+
+  .progress-counter-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 14px;
+    color: #a5a4a4;
+  }
+
+  .progress-counter-value {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 0px;
+    color: $zd-dark-blue;
+  }
+
+  .contact-details {
+    .list-group {
+    }
+    .list-group-item {
+      padding-left: 0px;
+      padding-right: 0px;
+      background-color: transparent;
+
+    }
+  }
+
+  .contact-detail-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #a5a4a4;
+  }
+
+  .contact-detail-value {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 0px;
+    color: $zd-dark-blue;
+  }
+
+  .profile-bio {
+    .card-component.card {
+      max-height: 755px;
+      overflow-y: scroll;
+    }
+
+    .card-body {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  .performance-circles-container {
+    margin-top: 58px;
+    margin-bottom: 84px;
+  }
+
+  .performance-circle {
+    
+  }
+}

@@ -1,0 +1,49 @@
+@import '../../../../../../assets/scss/all/custom/variables';
+
+.PlanningSnippet {
+  background: #fafafa;
+  border-radius: 10px;
+  overflow-y: scroll;
+
+  h3 {
+    font-family: 'Futura', sans-serif;
+    color: $zd-blue-inverse;
+    font-weight: $font-weight-bold;
+  }
+
+  label {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: $font-weight-bold;
+    color: $zd-blue-inverse;
+  }
+
+  textarea {
+    background: #ffffff;
+    border-radius: 5px;
+    border: none;
+    height: 88px;
+    resize: none;
+  }
+
+  .PlanningSnippet__dependencies {
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+    }
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid rgba(3, 41, 61, 0.1);
+    background: transparent;
+  }
+
+  hr {
+    // background: #e1e5e7;
+    background: 1px solid #e1e5e7;
+  }
+}

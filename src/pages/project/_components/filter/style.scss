@@ -1,0 +1,64 @@
+@import '../../../../assets/scss/all/custom/variables';
+
+.KanbanFilter {
+  .KanbanFilter__toggle {
+    cursor: pointer;
+  }
+  .KanbanFilter__menu {
+    background: #ffffff;
+    border: 0.5px solid #f2f2f2;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    width: 199px;
+    top: 27px !important;
+    right: 0;
+    left: 185px !important;
+    font-weight: 600;
+  }
+  .KanbanFilter__header {
+    color: #03293d;
+    opacity: 0.5;
+    font-weight: 600;
+    // line-height: 0;
+  }
+  .KanbanFilter__avatar {
+    height: 16px;
+    width: 16px;
+    font-size: 6px;
+    border-radius: 100%;
+  }
+  .KanbanFilter__app,
+  .KanbanFilter__user {
+    color: #03293d;
+  }
+
+  .KanbanFilter__option {
+    cursor: default;
+
+    &.active {
+      .KanbanFilter__select {
+        display: block;
+      }
+    }
+
+    .KanbanFilter__select {
+      display: none;
+    }
+
+    &:hover {
+      .KanbanFilter__select {
+        display: block;
+      }
+    }
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid rgba(3, 42, 63, 0.5);
+  }
+
+  .app-icon {
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+  }
+}

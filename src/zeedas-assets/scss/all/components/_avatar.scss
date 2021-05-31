@@ -1,0 +1,17 @@
+.avatar-wrap {
+  display: flex;
+  overflow: hidden;
+  font-size: 10px;
+  align-items: center;
+
+  .img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 9999px;
+  }
+
+  .img:nth-child(n + 2) {
+    margin-left: -0.7rem;
+  }
+}

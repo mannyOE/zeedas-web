@@ -1,0 +1,46 @@
+.code-textarea {
+  &__toggle {
+    background: none;
+    -webkit-appearance: none;
+    color: $zd-blue;
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 12px;
+
+    &:after {
+      content: url(../../../icons/icon-blue-arrow.svg);
+      margin-left: 10px;
+    }
+  }
+
+  &__header {
+    background: #011e2e;
+    color: #df882f;
+    font-size: 10px;
+    position: sticky;
+    top: 0 span {
+      opacity: 0.82;
+    }
+  }
+
+  &__wrapper {
+    background: #042f46;
+    height: 97px;
+    max-height: 97px;
+    overflow-y: auto;
+  }
+
+  textarea {
+    width: 100%;
+    resize: none;
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 12px;
+  }
+}

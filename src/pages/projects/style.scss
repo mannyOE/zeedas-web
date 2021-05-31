@@ -1,0 +1,362 @@
+@import "../../assets/scss/all/custom/variables";
+
+.projects-nav-container {
+  margin-bottom: "40px";
+
+  >div {
+    justify-content: space-between;
+  }
+
+  .btn-zd-white {
+    color: rgba(3, 41, 61, 0.5) !important;
+    box-shadow: none !important;
+    height: 44px;
+    font-weight: 800;
+    font-size: 14px;
+  }
+}
+
+.sort-buttons {
+  // TODO: INVESTIGATE PURPOSE OF PREVIOUSLY USED FIXED WIDTH
+  //width: 241px;
+  width: 260px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  .project-header {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+  }
+
+  .company-logo {
+    height: 26px;
+  }
+
+  .cardDropdown .nav-link {
+    padding: 0;
+  }
+
+  .dropdown-item {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #182538;
+  }
+
+  .icon-text {
+    margin-left: 10px;
+  }
+
+  .delete {
+    color: #EB0E43;
+  }
+
+  .noicon-text {
+    margin-left: 27px;
+  }
+
+
+  .project-title {
+    font-family: "Nunito Sans";
+    color: #03293d;
+    margin-top: 10px;
+    cursor: pointer;
+
+    h6 {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 16px;
+      margin: 0;
+    }
+
+    p {
+      font-style: normal;
+      font-size: 9px;
+      line-height: 14px;
+      font-weight: 600;
+      opacity: 0.5;
+      margin-bottom: 0;
+      white-space: nowrap;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+    }
+  }
+
+  .single-progress-bar {
+    margin: 10px 0;
+  }
+
+  .project-members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h6 {
+      font-family: "Futura";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 13px;
+      color: #a5a4a4;
+      margin: 0;
+    }
+
+    .avatar-wrap {
+      width: 45%;
+      margin-right: 5px;
+      overflow-x: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .avatar-wrap::-webkit-scrollbar {
+      display: none;
+    }
+
+
+  }
+
+
+}
+
+.create-project {
+
+  .project-timeline {
+    position: relative;
+    &::before {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      content: url(../../zeedas-assets/icons/calendar.svg)
+    }
+    width: 100%;
+    height: 55px;
+    border: solid 2px;
+    border-color: #e8e9ed;
+    background: rgba(26, 12, 47, 0.06);
+    border-radius: 10px;
+    color: $zd-dark-blue;
+    padding: 0 28px;
+    transition: border-color 0.4s;
+
+    &:hover {
+      border-color: rgba(169, 165, 175, 0.5);
+    }
+
+    &:focus {
+      border-color: #a9a5af;
+    }
+
+    &::placeholder {
+      color: #a5a4a4;
+      opacity: 0.5;
+    }
+
+    &.error {
+      border: solid 1px $zd-red;
+    }
+  }
+  // padding: 30px 20px;
+
+  .description-header {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    margin: 17px 0 34px 0;
+    color: #a5a4a4;
+    opacity: 0.6;
+  }
+
+  .description {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #23b3e8;
+    cursor: pointer;
+  }
+}
+
+.team-lead-cards {
+  margin-top: 40px;
+}
+
+.team-header {
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 19px;
+
+  color: #03293d;
+}
+
+.team-members-wrapper {
+  max-height: 165px;
+  overflow-y: scroll;
+}
+
+.team-list {
+  display: flex;
+  margin-bottom: 13px;
+
+  .team-img,
+  .team-default-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+  }
+
+  .team-default-img {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+  }
+
+  .team-list-content {
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 10px;
+
+    h5 {
+      font-family: Nunito Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 19px;
+      margin: 0;
+      color: #03293d;
+    }
+
+    p {
+      font-family: Nunito Sans;
+      font-style: normal;
+      font-weight: normal;
+      margin: 0;
+      font-size: 11px;
+      line-height: 16px;
+      color: #a5a4a4;
+    }
+
+    h6 {
+      font-family: Nunito Sans;
+      font-style: normal;
+      font-weight: bold;
+      width: 100%;
+      padding-left: 10px;
+      margin: 0;
+      font-size: 11px;
+      line-height: 16px;
+      color: #f15832;
+    }
+
+    label.container {
+      padding: 0;
+      margin: 0;
+      width: 50px;
+      height: 25px;
+    }
+  }
+}
+
+.icons-tabs {
+  .card-body {
+    padding: 1.25rem 0;
+  }
+
+  .tab-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #03293D;
+
+    .nav-link {
+      padding: .5rem 1.8rem;
+    }
+
+    .active.nav-link {
+      color: #f15832;
+    }
+  }
+
+  .tab-pane {
+    height: 182px;
+  }
+}
+
+.create-text {
+  svg {
+    margin-right: 10px;
+  }
+}
+
+// empty records
+/* Empty record */
+.empty-record-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.empty-record-container {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+
+  .card-body {
+    display: flex;
+    justify-content: center
+  }
+}
+
+.create-btn {
+  display: flex !important;
+}
+
+.share-input {
+  border: none;
+  width: 100%;
+}
+
+.dropdown-item:active {
+  background-color: #e9edf2;
+}
+
+.todo .custom-control-label,
+.todo .member-name {
+  opacity: 0.5;
+}
+
+.todo .custom-checkbox .custom-control-input:checked~.custom-control-label {
+  opacity: 1;
+}
+
+.todo-default-img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #fff;
+}

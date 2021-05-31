@@ -1,0 +1,67 @@
+@import '../../../assets/scss/all/custom/variables';
+
+.email-verification-content {
+  margin-top: 100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 515px;
+
+  a.resend-email {
+    color: $zd-blue;
+    cursor: pointer;
+
+    &:hover {
+      color: $zd-blue;
+    }
+  }
+
+  .email-verification-title {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    color: $zd-dark-blue;
+  }
+
+  .email-verification-description {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 150%;
+    font-family: 'Nunito Sans';
+    line-height: 150%;
+    color: $zd-dark-blue;
+    font-weight: 300;
+    opacity: 0.8;
+  }
+
+  .email-verification-buttons {
+    margin-top: 42px;
+  }
+
+  .email-verification-resend {
+    margin-top: 83px;
+    font-size: 24px;
+  }
+
+  .loading:after {
+    content: '\00a0\00a0\00a0';
+    animation: progress-ellipsis 3s infinite;
+  }
+
+  @keyframes progress-ellipsis {
+    0% {
+      content: '\00a0\00a0\00a0';
+    }
+    30% {
+      content: '.\00a0\00a0';
+    }
+    60% {
+      content: '..\00a0';
+    }
+    90% {
+      content: '...';
+    }
+  }
+}

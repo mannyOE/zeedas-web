@@ -1,0 +1,48 @@
+.list-widget {
+  .list-body {
+    .list-item {
+      padding: 5px 5px 20px 5px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid rgba(16, 16, 16, 0.1);
+
+      &:hover {
+        background: $gray-100;
+      }
+
+      > .list-icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 100%;
+
+        i {
+          line-height: 40px;
+        }
+      }
+    }
+  }
+}
+.last {
+  border-bottom: none !important;
+  color: #888;
+  height: 0;
+  opacity: 0.5;
+background: linear-gradient(180.26deg, rgba(255, 255, 255, 0) -18.02%, #FFFFFF 63.68%) !important;
+}
+//.list-widget:last-child  {
+//  .list-body:last-child  {
+//    .list-item:last-child {
+//      border-bottom: none !important;
+//    }}}
+
+//.list-item:last-child {
+//  border-bottom: none !important;
+//}
+
+//.timeline-list-container:last-child .list-widget .list-body .list-item {
+//  border-bottom: 1px solid blue !important;
+//}

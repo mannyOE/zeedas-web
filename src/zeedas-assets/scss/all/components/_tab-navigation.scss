@@ -1,0 +1,33 @@
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  border: none;
+  border-bottom: 1px solid #f15832;
+  color: $zd-dark-blue;
+  opacity: 1;
+
+  &:hover {
+    color: #f15832;
+    opacity: 1;
+  }
+}
+
+.nav-tabs .nav-link.active:hover {
+  border-bottom: 1px solid #f15832;
+  color: $zd-dark-blue;
+  opacity: 1;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+  border: none;
+}
+
+.tab-title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919aa3;
+  // opacity: 0.6;
+}

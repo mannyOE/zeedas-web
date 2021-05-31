@@ -1,0 +1,30 @@
+.chip {
+  display: inline-block;
+  padding: 0 21px;
+  height: 43px;
+  font-size: 1em;
+  line-height: 44px;
+  border-radius: 25px;
+  // background-color: #E8E7EA;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.closebtn {
+  padding-left: 10px;
+  color: #101010;
+  font-weight: bold;
+  //float: right;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: #000;
+}

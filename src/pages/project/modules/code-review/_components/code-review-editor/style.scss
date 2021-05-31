@@ -1,0 +1,112 @@
+@import '../../../../../../assets/scss/all/custom/variables';
+
+.CodeReviewEditor {
+  position: relative;
+
+  .line-number {
+  }
+  .line-text {
+  }
+
+  a {
+    cursor: default;
+  }
+
+  &__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    background-color: #f5f5f5;
+    width: 100%;
+  }
+
+  &__fullscreen-toggle {
+    cursor: pointer;
+  }
+
+  .Blob {
+    position: relative;
+    height: 25px;
+
+    &:hover {
+      background: hsl(0, 0%, 96%);
+    }
+    &.selected {
+      background-color: #23b3e859;
+    }
+
+    &.commented {
+      background-color: #EDE4A9;
+    }
+
+    &__container {
+      &.selected .Blob {
+        background-color: #23b3e859;
+      }
+
+      &.commented .Blob {
+        background-color: #EDE4A9;
+      }
+    }
+
+    &__add-comment, &__select-comment {
+      position: absolute;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      height: inherit;
+      transition: background 0.1s;
+      cursor: pointer;
+    }
+
+    &__add-comment {
+      left: 0;
+      font-size: 15px;
+      width: 23px;
+      background-color: mediumpurple;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+
+      &:hover {
+        background-color: darken(mediumpurple, 10%);
+      }
+    }
+
+    &__select-comment {
+      right: 0;
+      font-size: 8px;
+      width: 25px;
+      //background-color: lightcoral;
+      //background-color: $zd-orange;
+      //background-color: rgba($zd-orange, 0.5);
+      background-color: rgba(241, 88, 50, 0.2);
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+
+      &:hover {
+        //background-color: $zd-orange;
+        background-color: rgba(241, 88, 50, 0.5);
+      }
+
+      img {
+        width: auto;
+        height: auto;
+        max-width: 90%;
+        max-height: 90%;
+      }
+    }
+
+    &__line-number {
+      color: grey;
+      min-width: 40px;
+    }
+    &__line-text {
+      color: $zd-blue-inverse;
+    }
+  }
+}

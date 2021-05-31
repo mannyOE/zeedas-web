@@ -1,0 +1,15 @@
+.empty-record p {
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 134%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $zeedas-dark-text;
+}
+
+.empty-record .btn-icon-left{
+  display: inline-flex;
+}

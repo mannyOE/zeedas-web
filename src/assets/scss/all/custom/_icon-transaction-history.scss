@@ -1,0 +1,9 @@
+.icon-transaction {
+   //background-color: rgba(106, 200, 149, 0.2);
+   padding: 6px;
+   border-radius: 10px;
+}
+
+.withdrawn {
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+}

@@ -1,0 +1,16 @@
+.page-loader {
+    background-color: transparent;
+    min-height: calc(100vh - 100px);
+    
+  .loader-text {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: $zd-dark-blue;
+    margin-top: 34px;
+  }
+}

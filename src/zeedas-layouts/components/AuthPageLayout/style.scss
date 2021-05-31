@@ -1,0 +1,248 @@
+@import "../../../assets/scss/all/custom/variables";
+
+.auth-left-side {
+  background-color: #052231;
+  height: 100vh;
+  padding: 45px 60px 60px;
+
+  .slant-bars {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .mini-slant-bars {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.auth-right-side {
+  // margin-left: 550px;
+  padding-top: 45px;
+  padding-bottom: 60px;
+  height: 100vh;
+  overflow-y: scroll;
+
+  .login-pointer {
+    // padding-right: 80px;
+  }
+
+  h2 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: $zd-blue-inverse;
+  }
+  h3 {
+    font-family: 'Futura';
+    font-size: 24px;
+    line-height: 28px;
+    color: $zd-blue-inverse;
+  }
+  p {
+    color: $zd-blue-inverse;
+  }
+
+  .right-side-content {
+    margin-top: 40px;
+    // margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 655px;
+  }
+}
+
+.or-separator {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #03293d;
+  opacity: 0.5;
+  div {
+    position: relative;
+  }
+  div::before,
+  div::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 1px solid #e0e0e0;
+    width: calc(50% - 28px); /* half of limiter */
+    // margin: 0 20px;
+  }
+  div::before {
+    right: calc(50% + 28px);
+  }
+  div::after {
+    left: calc(50% + 28px);
+  }
+}
+
+.forms {
+  margin-top: 40px;
+
+  .custom-control-label {
+    padding-left: 25px;
+    color: rgba(15, 24, 37, 0.5);
+    font-weight: 400 !important;
+    line-height: 1rem;
+  }
+  .custom-control-label::before {
+    opacity: 0.3;
+    border: 1px solid $zd-blue-inverse;
+    border-radius: 5px;
+    width: 32px;
+    height: 29px;
+    background: white;
+  }
+  .custom-control-label::after {
+    width: 32px;
+    height: 29px;
+
+    :checked {
+      border: 1px solid $zd-blue-inverse;
+      background-color: $zd-blue;
+    }
+  }
+  .custom-checkbox
+    .custom-control-input:checked
+    ~ .custom-control-label::after {
+    background-color: $zd-blue;
+    border: 1px solid $zd-blue;
+
+    border-radius: 5px;
+  }
+}
+
+.company-signup-form {
+  margin-top: 20px;
+}
+
+// CAROUSEL STYLES
+.carousel-item {
+  max-width: 100%;
+  height: 250px;
+  background: transparent;
+}
+
+.carousel-caption {
+  text-align: left;
+  left: 0;
+  h3 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 45px;
+  }
+
+  p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+  }
+}
+
+// PASSWORD VALIDATION TOOLTIP
+
+.password-tooltip {
+  top: 10px !important;
+  left: 155px !important;
+}
+
+.password-validation-title {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Futura';
+}
+
+.password-tooltip-inner {
+  text-align: left;
+  max-width: 300px;
+  padding: 0.5rem 0.5rem;
+  color: #fff;
+  background-color: #010f28;
+  border-radius: 5px;
+  font-weight: 300;
+
+  .validation-text {
+    font-size: 10px;
+
+    & > div {
+      display: flex;
+      align-items: center;
+
+      span:first-child {
+        margin-right: 4px;
+        position: relative;
+        top: -1px;
+      }
+    }
+
+    .validation-text-bold {
+      font-weight: 600;
+    }
+  }
+}
+
+.password-tooltip-arrow {
+  left: 6px;
+
+  &:before {
+    border-width: 0.6rem 0.6rem 0;
+    border-top-color: #010f28;
+    left: 0.6rem;
+  }
+}
+
+// MEDIA QUERIES
+@mixin mobile() {
+  @media (min-width: 576px) {
+    @content;
+  }
+}
+@mixin tablet() {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin desktop() {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin large-desktop() {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+.auth {
+  .container {
+    @include tablet {
+      max-width: 100%;
+    }
+    @include desktop {
+      max-width: 1440px;
+    }
+  }
+
+  &-left-side {
+    &.col-md-5 {
+      flex: 0 0 38.5%;
+      max-width: 38.5%;
+    }
+  }
+
+  &-right-side {
+    // flex-grow: 1;
+  }
+}

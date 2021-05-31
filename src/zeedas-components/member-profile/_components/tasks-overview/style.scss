@@ -1,0 +1,49 @@
+@import '../../../../assets/scss/all/custom/variables';
+
+.TasksOverview {
+
+    .card {
+    background-color: #F9F9F9 !important;
+
+    }
+
+    .overview-title {
+      font-family: 'Futura';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 21px;
+      color: $zd-dark-blue;
+    }
+
+    .overview-description {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #a5a4a4;
+    }
+
+    .overview-footer {
+      overflow-x: scroll;
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+
+      /* Firefox */
+      .item {
+        margin-right: 10px;
+      }
+    }
+
+    .overview-footer::-webkit-scrollbar {
+      display: none;
+    }
+
+    .activities-body {
+      .card-component.card {
+        max-height: 755px;
+        overflow-y: scroll;
+      }
+    }
+  }

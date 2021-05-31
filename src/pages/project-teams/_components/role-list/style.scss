@@ -1,0 +1,43 @@
+@import '../../../../assets/scss/all/custom/variables';
+
+.RoleList {
+  max-height: 310px;
+  min-height: 0px;
+  border-radius: 5px;
+  border: solid 1px #e7e7e7;
+  overflow-y: scroll;
+  background: transparent;
+  padding: 0 0px;
+
+  .list-group-item {
+    font-size: 12px;
+    line-height: 160%;
+    color: #03293d;
+    font-weight: 400;
+    border: 0;
+    background: transparent;
+
+    &.list-group-item:not(:first-child) {
+      border-top: 1px solid rgba(45, 45, 45, 0.1);
+    }
+
+    &:hover,
+    &:focus {
+      z-index: unset;
+      text-decoration: unset;
+      background: rgba(112, 208, 209, 0.05);
+    }
+  }
+
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+    margin-top: 33px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #d1d1d1;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+}

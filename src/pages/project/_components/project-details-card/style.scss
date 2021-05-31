@@ -1,0 +1,86 @@
+@import "../../../../assets/scss/all/custom/variables";
+
+.ProjectDetails {
+.bg-blue {
+    background-color: $zd-blue-inverse;
+}
+.bg-yellow {
+    background-color: #FEBA54;
+}
+.bg-green {
+    background-color: $zd-green;
+}
+.fc-blue {
+    color: $zd-blue-inverse;
+}
+.fc-yellow {
+    color: #FEBA54;
+}
+.fc-green {
+    color: $zd-green;
+}
+.fc-orange {
+    color: #FF9C6F;
+}
+.ProjectDetails__stats {
+    .ProjectDetails__stats-item{
+    margin-bottom:10px;
+
+    .value {
+        display: flex;
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 12px;
+    }
+
+    .label {
+        font-weight: 700;
+        color: $zd-blue-inverse;
+
+    }}
+}
+.ProjectDetails__info{
+.ProjectDetails__info-item{
+    margin-bottom:20px;
+
+    .label {
+        font-size: 10px;
+        font-weight: 700;
+        color: $zd-blue-inverse;
+
+    }
+    .value {
+        font-size: 12px;
+        font-weight: 700;
+    }
+}}
+
+hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+
+    &::-webkit-progress-bar {
+      border-radius: 5px;
+      background-color: rgba(222, 222, 222, 0.5);
+    }
+
+    &::-webkit-progress-value {
+      background: #FF9C6F;
+      border-radius: 4px;
+    }
+  } 
+  
+  a {
+    color: #828282;
+    text-decoration: underline;
+  }
+}

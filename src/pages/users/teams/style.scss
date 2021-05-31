@@ -1,0 +1,197 @@
+@import '../../../assets/scss/all/custom/variables';
+
+.teams-container {
+  padding-left: 42px;
+  padding-right: 42px;
+
+  .pending {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: $zd-blue-inverse;
+    opacity: 0.5;
+    letter-spacing: 0.2px;
+  }
+
+  .dropdown-menu {
+    border: none;
+  }
+
+  button.dropdown-item {
+    &:active {
+      background-color: $zd-dark-blue;
+    }
+  }
+
+  .teams-header {
+    th {
+      padding-bottom: 10px !important;
+      font-family: 'Nunito Sans', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 22px;
+      align-items: center;
+      color: #2d2d2d;
+      opacity: 0.5;
+    }
+  }
+
+  td {
+    border: none;
+  }
+
+  .list-group-item {
+    border: none;
+  }
+
+  .core-team-header {
+    td {
+      background: $zd-faded-orange;
+      font-family: 'Nunito Sans', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 19px;
+      color: $zd-dark-blue;
+    }
+  }
+
+  tr {
+    &.team-item {
+      padding: 10px 14px;
+
+      &.resendable {
+        .resend-invite__button {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+
+      .default-button {
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.05s ease-in-out;
+      }
+
+      td {
+        background: none;
+        border: none;
+        padding: 0.5rem;
+      }
+
+      .team-member-name {
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        color: #2d2d2d;
+      }
+
+      .noicon-text {
+        margin-left: 27px;
+      }
+
+      .icon-text {
+        margin-left: 14px;
+      }
+    }
+
+    &:hover {
+      background: transparent;
+      box-shadow: none;
+
+      &.team-item {
+        background: rgba(45, 45, 45, 0.04);
+
+        td {
+          border: none;
+        }
+
+        td:first-child {
+          border-radius: 5px 0 0 5px;
+        }
+
+        td:last-child {
+          border-radius: 0 5px 5px 0;
+        }
+      }
+    }
+  }
+
+  .contract-team-header {
+    margin-bottom: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: $zd-dark-blue;
+
+    td {
+      border-top: 1px solid rgba(45, 45, 45, 0.05) !important;
+      border-bottom: 1px solid rgba(45, 45, 45, 0.05) !important;
+    }
+  }
+
+  .role-badge {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+.add-team-members-card {
+  background: #fcfcfc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 15px;
+}
+
+.change-team-role-modal {
+  .card-body {
+    padding: 47px 53px 40px;
+  }
+
+  .description {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: $zd-dark-blue;
+    opacity: 0.5;
+  }
+
+  .role-section {
+    padding: 23px 52px 0 54px;
+  }
+
+  .role-list {
+    background: #fcfcfc;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    border: none;
+  }
+
+  .role-item {
+    background: transparent;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 5px;
+    border: none !important;
+
+    label {
+      font-size: 13px;
+      letter-spacing: 0.2px;
+      // color: #03293d;
+    }
+  }
+
+  .update-role-button {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,59 @@
+@import "../../../assets/scss/all/custom/variables";
+
+.css-kj6f9i-menu{
+  width:300px !important;
+
+}
+#invite-teams {
+  .container {
+    max-width: 1022px;
+  }
+  
+  .large-slant-bars {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
+  }
+
+  .invite-right-container {
+    width: 500px;
+    // padding-top: 70px;
+  }
+
+  .invite-header {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .invite-header-title {
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    font-family: 'Futura';
+    color: $zd-dark-blue;
+  }
+
+  .invite-header-description {
+    color: $zd-blue-inverse;
+    opacity: 0.8;
+  }
+
+  a.skip-text {
+    cursor: pointer;
+    font-family: 'Nunito Sans';
+    font-weight: bold;
+    color: #23b3e8 !important;
+    position: absolute;
+    right: 15px;
+  }
+  .invite-team-form {
+    margin-top: 37px;
+
+    [class$='-control'] {
+      padding: 0 10px !important;
+    }
+  }
+}

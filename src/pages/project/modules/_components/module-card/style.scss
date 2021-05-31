@@ -1,0 +1,69 @@
+@import '../../../../../assets/scss/all/custom/variables';
+
+.ModuleCard {
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  line-height: 145.1%;
+
+  > * {
+    cursor: inherit;
+  }
+
+  &:hover {
+    background: rgba(255,255,255,0.8);
+  }
+
+  &.active,
+  &:focus-within {
+    background: #fff;
+    box-shadow: 0px 4px 15px rgba(161, 161, 161, 0.1);
+  }
+
+  .ModuleCard__name {
+    font-size: 10px;
+    color: #03293d;
+    font-weight: 400;
+  }
+  .ModuleCard__menu {
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    border: none;
+    padding: 0;
+    top: 12px;
+    left: 160px;
+  }
+
+  .ModuleCard__menu-btn {
+    font-size: 6px;
+    letter-spacing: 1px;
+  }
+  .ModuleCard__duedate {
+    color: #03293d;
+    opacity: 0.5;
+  }
+  .ModuleCard__avatar {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    // background-color: $zd-blue;
+    font-size: 6px;
+  }
+
+  .ModuleNotification__count {
+    background: #eb0e43;
+    border: 1px solid #fcfcfc;
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -2px;
+    border-radius: 50%;
+    color: #fcfcfc;
+  }
+}

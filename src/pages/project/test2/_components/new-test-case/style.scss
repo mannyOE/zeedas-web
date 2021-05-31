@@ -1,0 +1,31 @@
+@import '../../../../../assets/scss/all/custom/variables';
+
+.NewTestCase {
+  // border-top: solid 1px rgb(243, 243, 243);
+  // position: sticky;
+  // bottom: 0;
+  // background: #fAfAFa;
+  // border-top: solid 1px #e1e1e1;
+
+  .NewTestCase__input {
+    flex-wrap: wrap;
+  }
+  input {
+    border-radius: 2px;
+    border: none;
+    height: 23px;
+    margin-bottom: 5px;
+  }
+  .NewTestCase__test {
+    background: $zd-orange;
+    min-width: 150px;
+    border-radius: 2px;
+    color: white;
+  }
+  .NewTestCase__result {
+    background: $zd-green;
+    min-width: 150px;
+    border-radius: 2px;
+    color: white;
+  }
+}

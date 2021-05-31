@@ -1,0 +1,123 @@
+@import '../../../../../../assets/scss/all/custom/variables';
+
+.CodeReviewEditorFull {
+  position: relative;
+  height: 100vh;
+  background: $zd-dark-blue;
+
+  &__column {
+    background: #fafafa;
+    height: 100%;
+
+    &:first-child {
+        margin-right: 1px;
+    }
+    &:last-child {
+        margin-left: 1px;
+    }
+  }
+
+  &__header {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__settings {
+    opacity: 0.8;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &__icon {
+      fill: $zd-white;
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  &__controls {
+    z-index: 2000;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    //top: 84px;
+    top: 87px;
+    right: 3px;
+    width: 200px;
+    height: max-content;
+    border-radius: 5px;
+    background-color: $zd-dark-blue;
+
+    &__control {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 35px;
+      color: #fff;
+      //opacity: 0.8;
+      background-color: $zd-dark-blue;
+      padding: 0 20px;
+      margin: 0;
+      cursor: pointer;
+
+      &:hover {
+        background-color: lighten($zd-dark-blue, 5%);
+        //opacity: 1;
+      }
+      p {
+        margin: 0;
+      }
+      &.exit-fullscreen-control {
+
+      }
+      &.diff-view-option {
+        border-left: 20px solid darken($zd-dark-blue, 10%);
+        background-color: darken($zd-dark-blue, 5%);
+        &:hover {
+          background-color: lighten($zd-dark-blue, 5%);
+        }
+      }
+    }
+  }
+
+  &__versions-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    color: #fff;
+    margin: 0 auto;
+  }
+
+  &__comment-modal {
+    position: absolute;
+    top: 150px;
+    right: calc(50vw - 175px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 350px;
+    height:410px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+
+    &.right {
+      //right: 30px;
+      right: calc(50vw + 30px);
+    }
+
+    &.left {
+      //right: calc(50vw + 30px);
+      right: calc(50vw - 350px);
+    }
+  }
+}

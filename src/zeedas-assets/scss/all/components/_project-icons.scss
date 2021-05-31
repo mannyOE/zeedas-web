@@ -1,0 +1,88 @@
+.project-icons {
+  margin: 7% 0;
+  min-height: 109px;
+  max-height: 182px;
+  overflow-y: scroll;
+
+  svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.project-icon-wrap {
+  * {
+    pointer-events: none
+  }
+}
+
+.icon-active path {
+  fill: #F15832;
+}
+
+.upload-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 7% 0;
+  padding: 0 30px;
+  height: 100%;
+
+  .upload-text {
+    width: 100%;
+    font-family: "Futura";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #03293D;
+
+    span {
+      font-family: "Nunito Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 160%;
+      opacity: 0.5;
+    }
+
+  }
+
+
+}
+
+
+
+.upload-input {
+  position: relative;
+  display: flex;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  justify-content: flex-end;
+  color: #4DBD98;
+  cursor: pointer;
+
+  >div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+      margin-left: 5px;
+    }
+  }
+
+  input {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    right: 0;
+    cursor: pointer;
+  }
+}

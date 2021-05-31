@@ -1,0 +1,106 @@
+@import '../../../../../assets/scss/all/custom/variables';
+
+.ModuleTestCases {
+  // max-height: 270px;
+  // overflow-y: scroll;
+
+  .TestCase {
+    .TestCase__item {
+      div {
+        position: relative;
+      }
+      div:before {
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 100%;
+        display: inline-block;
+        left: -48px;
+        top: 0;
+        border-radius: 2px;
+      }
+      .test-case:before {
+        background-color: $zd-orange;
+      }
+      .result:before {
+        background-color: $zd-green;
+      }
+    }
+
+    .TestCase__dropdown {
+      background: #FFFFFF;
+      border: 1px solid #F2F2F2;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08);
+
+      .delete {
+        color: $zd-orange;
+      }
+
+      hr {
+        background:  rgba(169, 165, 175, 0.2);
+      }
+    }
+
+    .btn {
+      border-width: 2px;
+      border-style: solid;
+      border-color: rgba(26, 12, 47, 0.1);
+      box-sizing: border-box;
+      border-radius: 5px !important;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      text-transform: capitalize;
+
+      &:disabled {
+        opacity: 1;
+
+        &:hover {
+          box-shadow: unset;
+        }
+      }
+
+      &.passed {
+        width: 100px;
+        background-color: $zd-green;
+        border-color: solid rgba(26, 12, 47, 0.1);
+      }
+      &.failed {
+        width: 100px;
+        background-color: $zd-red;
+        border-color: rgba(26, 12, 47, 0.1);
+      }
+      &.untested {
+        width: 100px;
+        background-color: grey;
+        border-color: rgb(110, 110, 110);
+      }
+    }
+
+    &__comments-icon {
+      cursor: pointer;
+
+      path {
+        fill: #A5A4A4;
+      }
+
+      &.active {
+        path {
+          fill: $zd-orange;
+        }
+      }
+    }
+  }
+
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+    margin-top: 33px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #d1d1d1;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+}

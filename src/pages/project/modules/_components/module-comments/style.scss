@@ -1,0 +1,148 @@
+@import "../../../../../assets/scss/all/custom/variables";
+
+.ModuleComments {
+  a {
+    cursor: pointer;
+  }
+
+  /* COMMENT */
+  .Comment {
+    &.border-bottom {
+      &:not(:last-child) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+      }
+    }
+
+    &__meta--custom {
+      padding-top: 2px;
+    }
+
+    .Comment__toggle {
+      font-weight: 600;
+      color: $zd-orange !important;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    .Comment__input {
+    }
+    .Comment__type {
+      color: #03293d;
+      font-weight: $font-weight-bold;
+    }
+    .Comment__object {
+      color: #03293d;
+      opacity: 0.85;
+    }
+
+    .Comment__reply-count {
+      position: absolute;
+      //top: 9px;
+      //left: 10px;
+      color: white;
+      font-size: 8px;
+    }
+    .Comment__author {
+      font-size: 12px;
+      color: #03293d;
+      opacity: 0.5;
+      font-weight: $font-weight-bold;
+    }
+    .Comment__status {
+      //background: rgba(241, 88, 50, 0.2);
+      height: 28px;
+      width: 28px;
+      border-radius: 50%;
+    }
+    .Comment__date {
+      color: #a5a4a4;
+    }
+    .Comment__tag {
+      font-weight: $font-weight-bold;
+    }
+  }
+  /* COMMENT AUTHOR AVATAR */
+
+  .CommentAuthorAvatar {
+    width: 31px;
+    height: 31px;
+    background: $zd-blue;
+    display: inline-block;
+    border-radius: 50%;
+  }
+
+  /* SEND COMMENT */
+  .SendComment {
+    border-top: solid 1px #e1e1e1;
+    position: sticky;
+    bottom: 0;
+    background: #fafafa;
+
+    .SendComment__input {
+      border: 0;
+      background: transparent;
+    }
+    .SendComment__button {
+      display: inline-flex;
+      height: 40px;
+      width: 40px;
+      background: $zd-blue;
+      border-radius: 50%;
+      border: none;
+
+      &:disabled {
+        border: none;
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  /* COMMENT TEXT*/
+  .CommentText {
+    color: #03293d;
+    background-color: rgba(232, 231, 234, 0.58);
+    border-radius: 0px 10px 10px 10px;
+
+    &.blue-bg {
+      background-color: $zd-blue;
+      color: white;
+    }
+  }
+
+  .activity-icon {
+    width: inherit;
+    height: inherit;
+  }
+
+  .zd-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    width: 20px;
+    height: 20px;
+    background-color: $zd-orange;
+
+    &__left-arrow {
+      @extend .zd-icon;
+      width: 10px;
+      height: 7px;
+      transform: rotate(90deg);
+      -webkit-mask: url(../../../../../zeedas-assets/icons/arrow-outline.svg) no-repeat
+        center left;
+      mask: url(../../../../../zeedas-assets/icons/arrow-outline.svg) no-repeat center
+        left;
+    }
+
+    &__down-arrow {
+      @extend .zd-icon;
+      width: 10px;
+      height: 7px;
+      -webkit-mask: url(../../../../../zeedas-assets/icons/arrow-outline.svg) no-repeat
+        center left;
+      mask: url(../../../../../zeedas-assets/icons/arrow-outline.svg) no-repeat center
+        left;
+    }
+  }
+}

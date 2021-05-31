@@ -1,0 +1,53 @@
+@import '../../../../../assets/scss/all/custom/variables';
+
+.ProjectTeamPerformance {
+  p {
+    color: #8f8e8e;
+  }
+
+  .ProjectTeamPerformance__tabs {
+    border-top: 1px solid rgba(45, 45, 45, 0.1);
+    border-bottom: solid 1px rgba(45, 45, 45, 0.1);
+
+    a {
+      cursor: pointer;
+      color: #a5a4a4;
+      font-weight: bold;
+
+      &:hover {
+        color: #8f8e8e;
+      }
+
+      &.active {
+        color: $zd-blue-inverse;
+        border-bottom: 1px solid #e13071;
+      }
+    }
+  }
+  .ProjectTeamMember {
+    cursor: default;
+
+    & > * {
+      cursor: inherit;
+    }
+
+    &.top {
+      .member-performance {
+        color: $zd-green;
+      }
+    }
+    &.bottom {
+      .member-performance {
+        color: #eb0e43;
+      }
+    }
+    &:hover {
+      background: rgba(45, 45, 45, 0.04);
+      border-radius: 5px;
+    }
+
+    .member-email {
+      color: #a5a4a4;
+    }
+  }
+}

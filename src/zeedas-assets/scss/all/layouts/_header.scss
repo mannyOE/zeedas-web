@@ -1,0 +1,118 @@
+// PROFILE NAV ITEM
+.profile-nav-item {
+  .profile-name {
+    font-family: "Futura";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #03293d;
+  }
+
+  .profile-email {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    color: $zd-blue;
+  }
+}
+
+// PROFILE DROPDOWN STYLES
+.profile-dropdown {
+  .dropdown-menu {
+    border-radius: 10px;
+    width: 240px;
+  }
+
+  .company-details {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .company-name {
+    font-family: "Futura";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: $zd-dark-blue;
+    margin-bottom: 0px;
+  }
+
+  .company-link {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: $zd-blue;
+    margin-bottom: 0px;
+  }
+
+  .dropdown-item {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    :active {
+      color: #052231 !important;
+    }
+  }
+
+  .item-text {
+    margin-left: 10px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+
+    .item-text-red {
+      color: $zd-red;
+    }
+  }
+}
+
+
+.badge-shield {
+  padding-right: 5px;
+  border-right: 1px solid rgba(252, 252, 252, 0.15);
+}
+
+.search-module {
+  .dropdown-menu {
+    top: 75%;
+    left: 7%;
+    width: 360px;
+    padding: 17px 26px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    .list-group-item {
+      font-weight: 600;
+      color: #03293D;
+
+      .searched-header {
+        font-size: 14px;
+      }
+
+      h6 {
+        font-size: 10px;
+        line-height: 14px;
+        opacity: 0.5;
+        margin-bottom: 0.3rem;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+
+  }
+}

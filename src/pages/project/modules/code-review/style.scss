@@ -1,0 +1,121 @@
+@import '../../../../assets/scss/all/custom/variables';
+
+.CodeReview {
+  display: flex;
+  flex-direction: column;
+  background: $zd-white;
+  max-width: 1340px;
+  margin: auto;
+  height: 100vh;
+  padding:  30px;
+  //   background: rgba(3, 41, 61, 0.8);
+  // backdrop-filter: blur(4px);
+  a {
+    cursor: pointer;
+    * > {
+      cursor: inherit;
+    }
+  }
+
+  &__header {
+    font-size: 24px;
+    color: $zd-blue-inverse;
+    font-weight: $font-weight-bold;
+  }
+
+  &__close {
+    opacity: 0.8;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__button {
+    height: 38px;
+    width: 126px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.2s;
+    font-weight: $font-weight-bold;
+
+    &.approve {
+      background: $zd-blue;
+      border: 2px solid rgba(26, 12, 47, 0.1);
+      color: $zd-white;
+    }
+
+    &.cancel {
+      background: $zd-white;
+      border: 2px solid $zd-red;
+      color: $zd-red;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__title {
+    border-bottom: 1px solid rgba(3, 41, 61, 0.1);
+    font-weight: $font-weight-bold;
+    padding-bottom: 10px;
+  }
+  &__comments {
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+
+  .CodeReviewSnippet {
+    background: #f9f9f9;
+    border-radius: 5px;
+    //border: 1px solid #f9f9f9;
+    //width: 100%;
+
+    &:hover {
+      background: hsl(0, 0%, 97%);
+    }
+
+    &.active {
+      //background: hsl(0, 0%, 96.5%);
+      //box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      //border-color: red;
+      background-color: darken(#f9f9f9, 7%);
+    }
+
+    .CodeReviewSnippet__name {
+      font-size: 12px;
+      color: #03293d;
+    }
+    .CodeReviewSnippet__menu-btn {
+    }
+    .CodeReviewSnippet__badge {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 14px;
+      min-width: 14px;
+      padding: 3px;
+      color: #fff;
+      background-color: #EB0E43;
+      border-radius: 25px;
+    }
+    .CodeReviewSnippet__duedate {
+      color: #03293d;
+      opacity: 0.5;
+    }
+    .CodeReviewSnippet__avatar {
+      width: 16px;
+      width: 16px;
+      border-radius: 50%;
+      background-color: $zd-blue;
+    }
+  }
+
+  &__editor {
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,86 @@
+@import '../../assets/scss/all/custom/variables';
+
+.MultiSelect {
+  &.borderStyle {
+    .MultiSelect__control {
+      border-radius: 0 10px 10px 0 !important;
+    }
+  }
+
+  &.defaultPadding {
+    .MultiSelect__control {
+      padding: 0 28px;
+    }
+  }
+
+  &.nowrap {
+    .MultiSelect__value-container {
+      flex-wrap: nowrap;
+    }
+  }
+
+  .MultiSelect__value-container {
+    padding: 0;
+  }
+
+  &.error {
+    .MultiSelect__control {
+      border-color: $zd-red;
+    }
+  }
+  .MultiSelect__control {
+    background: rgba(26, 12, 47, 0.06);
+    border: solid 2px;
+    border-color: #e8e9ed;
+    border-radius: 10px;
+    color: #e8e9ed;
+    box-shadow: none;
+    min-height: 55px;
+    padding-top:5px ;
+    padding-bottom:5px ;
+
+    &:hover {
+      border-color: rgba(169, 165, 175, 0.5);
+    }
+  }
+
+  .MultiSelect__indicator-separator {
+    display: none;
+  }
+  .MultiSelect__multi-value {
+    background: rgba(226, 229, 242, 0.4);
+    border-radius: 4px;
+
+    &__label {
+    }
+    &__value {
+      color: #1a0c2f;
+    }
+    &__remove {
+      background-color: #dbdce1;
+      color: #a7a8aa;
+    }
+  }
+  .MultiSelect__indicators {
+  }
+  .MultiSelect__placeholder {
+    color: #a5a4a4;
+    opacity: 0.5;
+  }
+
+  .MultiSelect__menu {
+    background: #ffffff;
+    border: 0.5px solid #f2f2f2;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08);
+    .MultiSelect__menu-list {
+      font-size: 14px;
+      color: #1a0c2f;
+    }
+    .MultiSelect__option {
+      &:hover {
+        border-color: rgba(169, 165, 175, 0.5);
+      }
+    }
+  }
+}

@@ -1,0 +1,714 @@
+@import "../../assets/scss/all/custom/variables";
+
+.wallet-wrapper {
+  // padding: 0 5rem;
+}
+/* Transaction */
+.total-transaction-container {
+  //height: 300px;
+}
+
+.total-transaction {
+  font-family: 'Futura';
+  font-size: 30px;
+}
+
+.total-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  display: block;
+}
+
+.total {
+  margin-top: 1.2rem;
+}
+/* Balance */
+
+.wallet-balance {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #03293d;
+  opacity: 0.6;
+}
+
+.balance {
+  font-family: 'Futura', sans-serif;
+  font-size: 37px;
+  line-height: 47px;
+  color: #03293d;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.btn-fund-wallet {
+  margin-bottom: 12px;
+}
+
+.subscription-text {
+  border-right: 1px solid rgba(93, 38, 132, 0.15);
+  padding-right: 25px;
+  font-size: 12px;
+  display: inline;
+}
+
+.subscription-price {
+  color: var(--zd-green);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.last-funded {
+  //margin-right: 6rem;
+  font-size: 12px;
+  display: inline;
+}
+
+.last-funded-time {
+  color: var(--zd-blue);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.balance-container {
+  border-bottom: 1px dashed rgba(17, 14, 10, 0.4);
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+}
+
+.transactions-container {
+  border-bottom: 1px dashed rgba(17, 14, 10, 0.4);
+}
+
+/* Recent Activities */
+.see-all {
+  color: var(--zd-orange);
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.recent-activities {
+  font-family: 'Futura', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #03293d;
+  font-size: 20px;
+}
+
+.activities {
+  margin-top: 40px;
+}
+/*Referral*/
+
+.referal-title {
+  border-bottom: 1px solid rgba(3, 41, 61, 0.5);
+}
+
+.referral-container {
+  padding: 1rem 0;
+  height: 200px;
+}
+
+.referral-container .caret-card-wrapper {
+  position: absolute;
+  left: 50%;
+  cursor: pointer;
+}
+
+.side-title {
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #03293d;
+  opacity: 0.6;
+  padding-bottom: 15px;
+  //border-bottom: 1px solid rgba(17, 14, 10, 0.4);
+}
+
+.referral-info {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 130%;
+  color: #03293d;
+  opacity: 0.4;
+  margin: 20px 0;
+}
+
+.icon-info-referral {
+  margin: 25px 0;
+}
+
+.refer-friends {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 140%;
+  color: var(--zd-orange);
+}
+
+.refer {
+  cursor: pointer;
+}
+
+.divider {
+  border-top: $wallet-divider-color;
+  margin-left: -19px;
+  width: 113%;
+}
+
+.refer-card-container {
+  background: #fcfcfc;
+  width: 258px;
+  height: 391px;
+  position: absolute;
+  top: 79%;
+  left: -209px;
+  box-shadow: 0 14px 24px rgba(62, 57, 107, 0.1);
+  z-index: 10;
+}
+
+.referral-gift {
+  color: var(--zd-red);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.referral-reward {
+  color: var(--zd-green);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.gift {
+  font-family: "Futura", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #03293d;
+  padding-top: 15px;
+}
+
+.refer-friends {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--zd-orange);
+}
+
+.refer-card-contents {
+  padding: 15px 20px 0 20px;
+}
+
+.refer-divider {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #03293d;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-size: 20px;
+}
+
+.refer-divider span {
+  background: #fff;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #03293d;
+}
+
+.refer-share {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #03293d;
+  opacity: 0.6;
+}
+
+.refer-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 159%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #23b3e8;
+  background-color: rgba(35, 179, 232, 0.1);
+  padding: 10px 5px;
+}
+
+/* Subscription Settings */
+.upgrade-subscription p:nth-child(2) {
+  color: var(--zd-orange);
+  font-width: 500;
+  font-size: 15px;
+  line-height: 140%;
+}
+/* Billing Notice*/
+
+.billing {
+  height: 238px;
+}
+
+.billing-notice-container {
+  background: var(--zd-light-blue);
+  border-radius: 10px;
+  padding: 4px 10px;
+}
+
+.billing-subheading {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 130%;
+  color: #03293d;
+  opacity: 0.6;
+  margin: 10px 0;
+}
+
+.billing-details {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+/* Saved Cards */
+.cards-container {
+  margin-top: 2.2rem;
+  height: 221px;
+}
+/* Debit Card */
+.credit-card {
+  position: relative;
+  top: -9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //width: 400px;
+  height: 150px;
+  padding: 25px;
+  border-radius: 5px;
+
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(3, 41, 61, 1);
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.13),
+    0px 14px 30px rgba(139, 115, 74, 0.22);
+}
+.credit-card::after {
+  content: '';
+  background-image: url("~zeedas-assets/icons/colored-logo.svg");
+  //background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.credit-card__number {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $f-1;
+  line-height: 19px;
+  /* identical to box height */
+
+  //display: flex;
+  //align-items: flex-end;
+  //text-align: center;
+  letter-spacing: 0.1629em;
+
+  color: #ffffff;
+
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.208022);
+}
+
+.credit-card__info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.credit-card__info_label {
+  font-size: 12px;
+  color: var(--zd-green);
+  font-weight: 500;
+}
+
+.credit-card__info_expiry {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Refer Friend */
+.refer-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(3, 41, 61, 0.5);
+  height: 20px;
+  width: 100%;
+  outline: none;
+  //color: #CCC;
+}
+
+.refer-input-error {
+  color: var(--zd-orange);
+  font-size: 12px;
+}
+
+.refer-input-msg {
+  font-size: 12px;
+  color: var(--zd-blue);
+}
+
+.invite-button {
+  margin-top: 5rem;
+}
+
+/* Transaction History */
+.back {
+  font-size: 16px;
+  color: var(--zd-orange);
+  font-weight: 500;
+  position: absolute;
+  top: -4px;
+}
+
+.back-wrapper {
+  cursor: pointer;
+}
+
+/*Clear Transaction History */
+.clear-question {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #03293d;
+}
+
+.clear-info {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  font-size: 14px;
+  color: #2d2d2d;
+  opacity: 0.5;
+}
+
+/*Fund Wallet */
+.fund-wallet-wrapper {
+  //min-height: 60px;
+  max-height: 183px;
+  //overflow-y: scroll;
+  //overflow-x: hidden;
+}
+
+.show-overflow {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.fund-wallet-info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #03293d;
+  opacity: 0.5;
+}
+
+.fund-wallet-logo {
+  width: 30%;
+  opacity: 0.2;
+  transform: rotate(6deg);
+}
+
+.fund-wallet-add-card .paystack {
+  color: var(--zd-blue);
+  font-weight: 500;
+  cursor: pointer;
+  //position: absolute;
+  //top: 61%;
+  //left: 54%;
+}
+
+.paystack-button,
+.paystack-button:focus {
+  border: none;
+  outline: none;
+  background: none;
+  //color: var(--zd-blue);
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+
+  position: absolute;
+  //top: 66%;
+  top: 53%;
+  //left: 50%;
+  left: 73%;
+  height: 100%;
+  width: 100%;
+  transform: translate(-70%, -50%);
+}
+
+.paystack .paystack-button {
+  color: #000;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  transform: none;
+}
+
+.paystack-blue,
+.paystack-blue:focus {
+  position: relative;
+  //top: 66%;
+  top: 0%;
+  //left: 50%;
+  left: 0%;
+  color: var(--zd-blue);
+  height: inherit;
+  width: inherit;
+  transform: none;
+}
+
+.paystack-white {
+  color: #fff;
+}
+span.angle-right {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  font-size: 1em;
+  padding: 13px;
+  box-shadow: -1px 0px 20px rgba(47, 19, 67, 0.1);
+  border: 1px solid rgba(16, 16, 16, 0.05);
+  outline: 0;
+  border-radius: 4px;
+  background: #eee;
+}
+.stripe-element {
+  text-align: center;
+}
+
+.stripe-element form span {
+  display: block;
+  text-align: left;
+  margin-top: -15px;
+  color: var(--zd-orange);
+}
+
+.stripe-element form {
+  margin-bottom: 30px;
+}
+
+div.scroll {
+  width: 100%;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: justify;
+}
+/* Add Card */
+
+.add-card-child-wrapper span {
+  font-size: 16px;
+}
+
+.add-card-child-wrapper span:nth-child(1) {
+  margin-left: -40px;
+  cursor: pointer;
+}
+
+.add-card-child-wrapper span:nth-child(2) {
+  margin-left: 23px;
+}
+.add-new-card-title {
+  display: inline-block;
+  margin: 10px 10px;
+  font-size: 20px;
+  color: var(--zd-black);
+}
+
+main.add-card-child-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  padding-top: 40px;
+}
+
+main.add-card-child-wrapper div {
+  //overflow: auto;
+}
+
+.add-card-content {
+  padding: 20px 40px;
+}
+
+.add-card-text {
+  color: $zeedas-gray-text-1;
+  font-weight: 600;
+  font-size: 16px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+/* Fund wallet complete */
+.fund-wallet-complete {
+  padding: 30px 20px;
+}
+
+.saved-cards {
+  margin-top: 2rem;
+}
+
+.zeedas-list-group .list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.75rem 0.5rem 0 0.5rem;
+
+  .row {
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* All cards */
+.all-cards-wrapper {
+  margin-top: 3.5rem;
+}
+.all-cards-second-wrapper {
+  padding: 10px 20px;
+}
+.all-cards-first-layer p {
+  color: $zeedas-gray-text-1;
+  font-weight: 500;
+}
+
+.all-cards-first-layer div:nth-child(1) {
+  //cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* Empty record */
+.wallet-empty-record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wallet-activities .card-body {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px) {
+  .divider {
+    border-top: $wallet-divider-color;
+    margin-left: -19px;
+    width: 116%;
+  }
+  //.btn-fund-wallet {
+  //  float: left;
+  //}
+  //
+  //.btn-add-card {
+  //  float: right;
+  //}
+}
+
+@media only screen and (min-width: 600px) {
+  .divider {
+    border-top: $wallet-divider-color;
+    margin-left: -19px;
+    width: 110%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .divider {
+    border-top: $wallet-divider-color;
+    margin-left: -19px;
+    width: 106%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .divider {
+    border-top: $wallet-divider-color;
+    margin-left: -19px;
+    width: 118%;
+  }
+
+  .bill-container {
+    margin-left: 4.33333%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .divider {
+    border-top: $wallet-divider-color;
+    margin-left: -19px;
+    width: 113%;
+  }
+
+  .bill-container {
+    margin-left: 4.33333%;
+  }
+
+  .referral-container .caret-card-wrapper {
+    left: 61%;
+  }
+
+  //.chips-row {
+  //  margin: 0 12px;
+  //}
+}
+
+@media only screen and (min-width: 1600px) {
+  .divider {
+    border-top: $wallet-divider-color;
+    margin-left: -19px;
+    width: 108%;
+  }
+}

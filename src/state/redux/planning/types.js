@@ -1,0 +1,3 @@
+export const SET_ACTIVE_PLAN = "SET_ACTIVE_PLAN";
+export const SET_ACTIVE_SNIPPET = "SET_ACTIVE_SNIPPET";
+export const RESET_PLANNING = "RESET";

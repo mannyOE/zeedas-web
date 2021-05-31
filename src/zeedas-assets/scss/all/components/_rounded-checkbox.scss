@@ -1,0 +1,12 @@
+.custom-checkbox:not(.square) .custom-control-label::before {
+  border-radius: 50%;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label {
+  font-weight: 800;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before,
+.custom-radio .custom-control-input:checked~.custom-control-label::before {
+  background-color: #4DBD98;
+}

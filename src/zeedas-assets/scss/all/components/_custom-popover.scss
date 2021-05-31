@@ -1,0 +1,59 @@
+.popover {
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  height: 250px;
+  background-color: $zd-blue;
+  font-size: 10px;
+  /* Though for the custom-popover component, this file globally affects the styles for the bootstrap popover */
+  &-body {
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+  }
+  &-inner {
+    background-color: transparent;
+    color: white;
+    border-radius: 6px;
+  }
+  &-header {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 10px;
+
+    &:before {
+      display: none !important;
+    }
+  }
+
+  .arrow {
+    z-index: -1;
+
+    &:before {
+      position: absolute;
+      display: block;
+      content: '';
+      height: 25px;
+      width: 25px;
+      transform: rotate(45deg);
+      background-color: $zd-blue;
+      border-radius: 8px;
+      border-width: unset;
+      border-style: none;
+    }
+  }
+}
+
+.bs-popover-bottom .arrow::after,
+.bs-popover-auto[x-placement^='bottom'] .arrow::after {
+  top: unset;
+  border-bottom: none;
+}
+
+.bs-popover-top .arrow::after,
+.bs-popover-auto[x-placement^='top'] .arrow::after {
+  bottom: unset;
+  border-top-color: unset;
+}

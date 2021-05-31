@@ -1,0 +1,142 @@
+@import '../../../../assets/scss/all/custom/variables';
+
+.TasksBreakdown {
+  .nav {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+  }
+  .nav-tabs .nav-link {
+    padding: 0;
+    cursor: pointer;
+
+    &:not(.active) {
+      border: none;
+    }
+  }
+  .nav-tabs .nav-link:not(.active):hover,
+  .nav-tabs .nav-link:not(.active):focus {
+    border: none;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  .completed-task-list {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+
+    .list-group-item {
+      // padding: 28px 29px 28px 40px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+      .task-title {
+        font-family: 'Nunito Sans';
+        font-size: 16px;
+        line-height: 22px;
+        color: $zd-blue-inverse;
+      }
+
+      // &::before {
+      //     border-left: 4px solid #F15832;;
+      // }
+    }
+
+    .empty-records {
+      height: 350px;
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      color: $zd-dark-blue;
+    }
+  }
+
+  .hour-spent {
+    .hour-title {
+      font-weight: bold;
+      font-size: 14px;
+      color: #03293d;
+      text-align: center;
+    }
+
+    .total-hours {
+      color: #03293d;
+      margin-top: 54px;
+
+      p {
+        margin-bottom: 0;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 2;
+      }
+
+      .bar-chart {
+        width: 120px;
+        height: 70px;
+      }
+    }
+  }
+
+  .work-summary {
+    margin-top: 30px;
+
+    .card-body {
+      padding: 13px;
+    }
+    .amount-icon {
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.1);
+      display: flex;
+      flex: 0 1 0%;
+      width: fit-content;
+      height: fit-content;
+      border-radius: 10px;
+    }
+    .amount {
+      font-size: 20px;
+      line-height: 27px;
+    }
+
+    .total {
+      padding: 0 13px;
+    }
+
+    .amount-text-sm {
+      font-weight: 600;
+      font-size: 10px;
+      width: 100%;
+      line-height: 14px;
+    }
+
+    .amount-text-lg {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    .bar-chart {
+      p {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #1a0c2f;
+        opacity: 0.5;
+      }
+
+      // height: 230px;
+      // display: flex;
+      // flex-wrap: wrap;
+      // align-items: flex-end;
+    }
+  }
+}

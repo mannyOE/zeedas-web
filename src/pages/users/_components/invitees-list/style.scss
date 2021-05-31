@@ -1,0 +1,15 @@
+@import '../../../../assets/scss/all/custom/variables';
+
+.InviteList {
+  .list-group-item {
+    background: transparent;
+    height: 54px;
+    max-height: 54px;
+    animation: stretchHeight 200ms ease-out;
+
+    &.border-bottom {
+      border-bottom: '1px solid rgba(224, 224, 224, 0.5)';
+    }
+  }
+}
+

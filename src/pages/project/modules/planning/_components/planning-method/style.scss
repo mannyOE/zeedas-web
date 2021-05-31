@@ -1,0 +1,13 @@
+@import '../../../../../../assets/scss/all/custom/variables';
+
+.PlanningMethod {
+    h4, h5 {
+        font-weight: $font-weight-bold;
+    }
+    .object-area {
+        background: #03293D;
+        border-radius: 5px;
+        color: #F9F9F9;
+        font-size: 12px;
+    }
+}

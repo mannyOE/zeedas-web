@@ -1,0 +1,45 @@
+.caret-card-2 {
+  position: absolute;
+  background: var(--zd-dark-pink);
+  border-radius: 10px;
+  width: 150px;
+  height: 75px;
+  padding: 10px;
+  top: 79%;
+  //right: -190%;
+  z-index: 999;
+  left: 46%;
+  color: #fff;
+  font-size: 11px;
+}
+
+.caret-card-2:before{
+  content: "";
+  position: absolute;
+  top: -25px;
+  right:33px;
+  z-index: 1;
+  border: solid 15px transparent;
+  border-bottom-color:var(--zd-dark-pink);
+}
+
+#main {
+  //background: blue;
+  //color: #fff;
+  border-radius: 10px;
+  //width: 250px;
+  //height: 98px;
+  position: absolute;
+  //top: 79%;
+  //right: -281%;
+  z-index: 999;
+  padding: 15px;
+  font-size: 11px;
+}
+
+#pointer{
+  border:solid 10px transparent;
+  //border-bottom-color:blue;
+  position:absolute;
+  //margin:-34px 0 0 -0px;
+}

@@ -1,0 +1,31 @@
+@import '../../assets/scss/all/custom/variables';
+
+.AppAlternativeLayout {
+  overflow-y: hidden;
+  .bg-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+  }
+  aside {
+    background-color: #052231;
+    height: 100vh;
+    height: 100vh;
+    overflow-y: hidden;
+    padding: 50px 50px 0px 50px;
+    // max-width: 230px;
+    // position: fixed;
+
+    .bars {
+      margin-top: 115px;
+    }
+  }
+
+  .AppAlternativeLayout__content {
+    // margin-left: 230px;
+    // padding-top: 65px;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+}

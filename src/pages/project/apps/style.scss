@@ -1,0 +1,91 @@
+@import "../../../assets/scss/all/custom/variables";
+
+.ProjectApps {
+  margin: 0 100px;
+}
+.apps.empty-record-container {
+
+  height: calc(100vh - 190px);
+  position: relative;
+  width: 100%;
+}
+
+.skills-set {
+  margin-top: 34px;
+
+  p {
+    font-weight: bold;
+  }
+}
+
+.scroll-div {
+  overflow: scroll;
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scroll-div::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.multi-select {
+  background: rgba(26, 12, 47, 0.06);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: -10px;
+
+  .down-arrow {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+  }
+}
+
+.skills-padding {
+  padding-bottom: 20px;
+}
+
+.multi-select-content {
+  margin-top: -10px;
+
+  .input-group-text {
+    background: rgba(3, 41, 61, .05);
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+
+  input {
+    background: rgba(3, 41, 61, .05);
+    border: none;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .form-control:focus {
+    background: rgba(3, 41, 61, .05);
+    border: none;
+    border-radius: 0 5px 5px 0;
+  }
+
+  ::placeholder {
+    color: rgba(165, 164, 164, .4);
+  }
+}
+
+.assign-team .css-uj3ags-control,
+.assign-team .css-s2n9yn-control {
+  background: rgba(26, 12, 47, 0.06) !important;
+  color: #A5A4A4;
+  border: rgba(26, 12, 47, 0.06) !important;
+}
+
+.assign-team .css-151xaom-placeholder {
+  color: #a5a4a4 !important;
+  opacity: 0.5 !important;
+}
+
+[class$='-indicatorSeparator'] {
+  background: none !important;
+}

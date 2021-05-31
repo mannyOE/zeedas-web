@@ -1,0 +1,33 @@
+@import '../../../assets/scss/all/custom/variables';
+
+.ProjectTest {
+  margin: 0 100px;
+  h2 {
+    font-weight: 700;
+  }
+
+  .ProjectTest__card {
+    background: rgba(255, 255, 255, 0.596);
+    border-radius: 5px;
+    overflow-y: auto;
+    height: 100%;
+  }
+
+  .ProjectTest__menu-btn {
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+
+  > .row {
+    @media (min-width: 768px) {
+      > .col-md-2 {
+        flex: 0 0 21%;
+        max-width: 21%;
+      }
+      > .col-md-5 {
+        flex: 0 0 calc(79% / 2);
+        max-width: calc(79% / 2);
+      }
+    }
+  }
+}

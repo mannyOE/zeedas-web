@@ -1,0 +1,20 @@
+@import '../../assets/scss/all/custom/variables';
+
+.Overview {
+  .bg-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+  }
+  h2,
+  h3 {
+    border-bottom: 1px solid rgba(3, 41, 61, 0.05);
+    font-family: 'Futura', sans-serif;
+    font-weight: bold;
+  }
+  .bold-header-text {
+    font-family: 'Futura', sans-serif;
+    font-weight: bold;
+  }
+}

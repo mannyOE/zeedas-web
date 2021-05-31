@@ -1,0 +1,26 @@
+@import "../../../../assets/scss/all/custom/variables";
+@import "../../../../assets/scss/all/custom/debug";
+
+.SingleProjectMenu {
+  //@include red-band;
+  .dropdown-item {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #182538;
+  }
+
+    .dropdown-menu {
+        border: 1px solid #F2F2F2;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08);
+    }
+  .icon-text {
+    margin-left: 10px;
+  }
+
+  .delete {
+    color: #eb0e43;
+  }
+}

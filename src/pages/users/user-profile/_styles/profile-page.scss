@@ -1,0 +1,97 @@
+@import "../../../../assets/scss/all/custom/variables";
+
+.profile-update {
+  .profile_update--heading {
+    border-bottom: 1px solid rgba(45, 45, 45, 0.1);
+    .profile_update--title {
+      font-family: "Futura";
+      font-size: 20px;
+      line-height: 23px;
+      margin-bottom: 0px;
+      color: var(--zd-blue-inverse);
+      // font-weight: bold;
+    }
+    .profile_update_text {
+      font-family: "Nunito Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 160%;
+      margin-top: 7px;
+      color: #2d2d2d;
+      opacity: 0.3;
+    }
+  }
+
+  .profile_update_picture {
+    margin-top: 10px;
+
+    > div {
+      margin: 15px;
+    }
+
+     .img {
+      // border-radius: 20px;
+      // width: 86px;
+      // height: 86px;
+      display: inline-block;
+      color: $zd-white;
+      // font-size: 32px,
+    }
+
+    .profile_update-avatar {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      color: #2d2d2d;
+      margin-bottom: 0.3rem;
+    }
+
+    .profile_update-changeImg {
+      // color: var(--zd-blue);
+      // cursor: pointer;
+
+      span {
+        margin-right: 5px;
+      }
+    }
+
+    .profile-upload-input {
+      position: relative;
+      display: flex;
+      font-family: "Nunito Sans";
+      font-style: normal;
+      align-items: center;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+      justify-content: flex-end;
+      color: $zd-blue;
+      cursor: pointer;
+    
+      >div {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    
+        span {
+          margin-left: 5px;
+        }
+      }
+    
+      input {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        right: 0;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+//.profile_update_picture > div {
+//  margin:15px;
+//}

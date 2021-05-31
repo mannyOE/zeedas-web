@@ -1,0 +1,85 @@
+<svg id="euuhbhzgvjx1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 349.560000 278.320000" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style>
+        <![CDATA[
+
+            #euuhbhzgvjx2_ts {animation: euuhbhzgvjx2_ts__ts 3000ms infinite }
+            @keyframes euuhbhzgvjx2_ts__ts { 
+                0% {transform: translate(142.057323px,141.536725px) scale(0,0)}
+                23.333333% {transform: translate(142.057323px,141.536725px) scale(0,0);animation-timing-function: cubic-bezier(0.655000,0.010000,0.580000,1)} 
+                36.666667% {transform: translate(142.057323px,141.536725px) scale(1,1);animation-timing-function: cubic-bezier(0.420000,0,0.580000,1)} 
+                56.666667% {transform: translate(142.057323px,141.536725px) scale(1,1);animation-timing-function: cubic-bezier(0.660000,0,0.345000,0.990000)} 
+                70% {transform: translate(142.057323px,141.536725px) scale(0,0)} 
+                100% {transform: translate(142.057323px,141.536725px) scale(0,0)} 
+            }
+
+            #euuhbhzgvjx3_ts {animation: euuhbhzgvjx3_ts__ts 3000ms infinite}
+            @keyframes euuhbhzgvjx3_ts__ts { 
+                0% {transform: translate(222.771716px,113.029237px) scale(0,0)} 
+                26.666667% {transform: translate(222.771716px,113.029237px) scale(0,0);animation-timing-function: cubic-bezier(0.655000,0.010000,0.580000,1)} 
+                40% {transform: translate(222.771716px,113.029237px) scale(1,1);animation-timing-function: cubic-bezier(0.420000,0,0.580000,1)}
+                53.333333% {transform: translate(222.771716px,113.029237px) scale(1,1);animation-timing-function: cubic-bezier(0.640000,-0.005000,0.345000,0.990000)} 
+                66.666667% {transform: translate(222.771716px,113.029237px) scale(0,0)}
+                100% {transform: translate(222.771716px,113.029237px) scale(0,0)} 
+            }
+
+            #euuhbhzgvjx4_to {animation: euuhbhzgvjx4_to__to 3000ms infinite}
+            @keyframes euuhbhzgvjx4_to__to {
+                0% {transform: translate(174.780000px,140.850188px)}
+                20% {transform: translate(174.780000px,140.850188px);animation-timing-function: cubic-bezier(0.655000,0.010000,0.580000,1)}
+                33.333333% {transform: translate(293.010197px,141.472672px)}
+                65.333333% {transform: translate(293.010197px,141.472672px);animation-timing-function: cubic-bezier(0.655000,0.010000,0.580000,1)} 
+                78.666667% {transform: translate(174.780000px,140.850188px)} 
+                100% {transform: translate(174.780000px,140.850188px)} 
+            }
+
+            #euuhbhzgvjx4_ts {animation: euuhbhzgvjx4_ts__ts 3000ms infinite}
+            @keyframes euuhbhzgvjx4_ts__ts { 
+                0% {transform: scale(0,0);animation-timing-function: cubic-bezier(0.420000,0,0.580000,1)}
+                13.333333% {transform: scale(1,1);animation-timing-function: cubic-bezier(0.420000,0,0.580000,1)}
+                76.666667% {transform: scale(1,1);animation-timing-function: cubic-bezier(0.600000,0.015000,0.580000,1)} 
+                90% {transform: scale(0,0)} 100% {transform: scale(0,0)} 
+            }
+
+            #euuhbhzgvjx5_to {animation: euuhbhzgvjx5_to__to 3000ms infinite}
+            @keyframes euuhbhzgvjx5_to__to { 
+                0% {transform: translate(292.919575px,141.536725px);animation-timing-function: cubic-bezier(0.420000,0,0.580000,1)} 
+                13.333333% {transform: translate(292.919575px,141.536725px)} 100% {transform: translate(292.919575px,141.536725px)} 
+            }
+
+            #euuhbhzgvjx6_to {animation: euuhbhzgvjx6_to__to 3000ms infinite}
+            @keyframes euuhbhzgvjx6_to__to { 
+                0% {transform: translate(174.780000px,139.160000px)} 
+                16.666667% {transform: translate(174.780000px,139.160000px);animation-timing-function: cubic-bezier(0.825000,0.010000,0.580000,1)} 
+                36.666667% {transform: translate(59.562367px,139.286945px)} 
+                60% {transform: translate(59.562367px,139.286945px)} 
+                80% {transform: translate(174.780000px,139.160000px)}
+                100% {transform: translate(174.780000px,139.160000px)} 
+            }
+
+            #euuhbhzgvjx6_ts {animation: euuhbhzgvjx6_ts__ts 3000ms infinite}
+            @keyframes euuhbhzgvjx6_ts__ts {
+                0% {transform: scale(0,0);animation-timing-function: cubic-bezier(0.420000,0,0.580000,1)} 
+                13.333333% {transform: scale(1,1);animation-timing-function: cubic-bezier(0.420000,0,0.580000,1)} 
+                80% {transform: scale(1,1);animation-timing-function: cubic-bezier(0.530000,-0.005000,0.580000,1)} 
+                93.333333% {transform: scale(0,0)} 100% {transform: scale(0,0)} 
+            }
+        ]]>
+    </style>
+    <g id="euuhbhzgvjx2_ts" transform="translate(142.057323,141.536725) scale(0,0)">
+        <path id="euuhbhzgvjx2" d="M199.470000,64L120.200000,236.080000C119.251100,238.141053,117.889742,239.985693,116.200000,241.500000C114.510196,243.066636,112.524766,244.280332,110.360000,245.070000C108.196968,245.855034,105.897677,246.195166,103.600000,246.070000C101.419049,245.938621,99.282096,245.399295,97.300000,244.480000L92.950000,242.480000C90.926763,241.501913,89.110459,240.143929,87.600000,238.480000C86.066796,236.798401,84.886813,234.826095,84.130000,232.680000C83.364828,230.647323,83.024488,228.479362,83.130000,226.310000C83.223032,224.099971,83.756819,221.930823,84.700000,219.930000L165.220000,44.930000C166.782683,41.511734,169.638536,38.853704,173.160000,37.540000C174.892604,36.885240,176.739285,36.585962,178.590000,36.660000C180.464916,36.739566,182.304701,37.195261,184,38L191.120000,41.320000C199.717814,45.421758,203.400462,55.688534,199.370000,64.320000Z" transform="translate(-142.057323,-141.536725)" fill="rgb(243,229,4)" stroke="none" stroke-width="1"/>
+    </g>
+    <g id="euuhbhzgvjx3_ts" transform="translate(222.771716,113.029237) scale(0,0)"><path id="euuhbhzgvjx3" d="M273.230000,56.120000L209.660000,187.610000C208.611177,189.782606,207.139060,191.723896,205.330000,193.320000C201.590666,196.585236,196.739898,198.289269,191.780000,198.080000C189.313681,198.020341,186.886282,197.451792,184.650000,196.410000L181.310000,194.930000C179.079352,193.941705,177.064547,192.524886,175.380000,190.760000C173.723839,189.033106,172.428593,186.993349,171.570000,184.760000C170.698416,182.533959,170.313128,180.147220,170.440000,177.760000C170.542541,175.376044,171.131256,173.038202,172.170000,170.890000L237.270000,36.830000C238.148476,34.992993,239.386177,33.350658,240.910000,32C242.457231,30.625604,244.257441,29.565857,246.210000,28.880000C250.197817,27.498240,254.561302,27.680499,258.420000,29.390000L264.360000,32.090000C266.601189,33.061002,268.624532,34.472241,270.310000,36.240000C271.974795,37.977422,273.261811,40.040734,274.090000,42.300000C274.905962,44.538537,275.246533,46.922535,275.090000,49.300000C274.944601,51.676889,274.311461,53.998401,273.230000,56.120000Z" transform="translate(-222.771716,-113.029237)" fill="rgb(78,190,152)" stroke="none" stroke-width="1"/></g>
+    <g id="euuhbhzgvjx4_to" transform="translate(174.780000,140.850188)">
+        <g id="euuhbhzgvjx4_ts" transform="scale(0,0)">
+            <path id="euuhbhzgvjx4" d="M270.440000,155.530000C277.162724,166.322382,290.585285,170.845038,302.468512,166.321825C314.351739,161.798613,321.369761,149.495486,319.214706,136.964474C317.059651,124.433462,306.334674,115.181736,293.623088,114.888284C280.911502,114.594832,269.771018,123.341785,267.040000,135.760000C265.547602,142.541130,266.767941,149.637041,270.440000,155.530000Z" transform="translate(-293.010197,-141.472672)" fill="rgb(37,178,231)" stroke="none" stroke-width="1"/>
+        </g>
+    </g>
+    <g id="euuhbhzgvjx5_to" transform="translate(292.919575,141.536725)">
+        <path id="euuhbhzgvjx5" d="M270.480000,155.630000C277.210187,166.345415,290.577101,170.807674,302.394537,166.283986C314.211972,161.760298,321.182476,149.512921,319.037150,137.042432C316.891824,124.571943,306.229286,115.358016,293.579519,115.043475C280.929753,114.728934,269.822458,123.401545,267.060000,135.750000C265.526899,142.568208,266.756564,149.716086,270.480000,155.630000Z" transform="scale(0,0) translate(-292.919575,-141.536725)" fill="rgb(37,178,231)" stroke="none" stroke-width="1"/>
+    </g>
+    <g id="euuhbhzgvjx6_to" transform="translate(174.780000,139.160000)">
+        <g id="euuhbhzgvjx6_ts" transform="scale(0,0)">
+            <path id="euuhbhzgvjx6" d="M35.140000,154.530000C42.427694,166.203288,56.957486,171.086983,69.816307,166.185261C82.675127,161.283539,90.267121,147.967122,87.935102,134.404754C85.603082,120.842386,73.999177,110.826662,60.241618,110.501568C46.484058,110.176475,34.420022,119.632920,31.450000,133.070000C29.821992,140.430535,31.146929,148.135997,35.140000,154.530000Z" transform="translate(-59.562367,-139.285118)" fill="rgb(241,89,49)" stroke="none" stroke-width="1"/>
+        </g>
+    </g>
+</svg>
